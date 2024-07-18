@@ -40,6 +40,7 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  flex-basis: 300px;
 }
 
 .content {
@@ -57,4 +58,12 @@ ul {
   list-style-type: none;
   margin: 0px; 
   padding: 0px;
+}
+
+.cards {
+  padding: 48px; 
+  display: flex; 
+  flex-wrap: wrap;
+  gap: 16px; 
+  justify-content: center;
 }
